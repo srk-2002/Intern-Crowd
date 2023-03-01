@@ -1,0 +1,112 @@
+body {
+    background-image: url(https://newmibridges.michigan.gov/resource/1670676154000/ISD_Icons/landing-page/group-3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgb(8, 8, 8);
+    border-radius: 30px;
+    height: 65px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+}
+
+.navbar ul li {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    padding: 10px 19px;
+    padding-top: 23px;
+}
+
+.navbar li a {
+    padding: 2px 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+.navbar img {
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 25px;
+    width: 250px;
+
+}
+
+input[type=text],
+input[type=password] {
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=checkbox] {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.login {
+    padding: 14px 20px;
+    background-color: #008c59;
+}
+
+.login,
+.register {
+    float: left;
+    width: 10%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.clicks::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container p a {
+    color: red;
+}
